@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zurich</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <nav>
+      
+        <ul class="nav-list">
+            <li class="nav-items"><a href="#">ZURICH</a></li>
+            <li class="nav-items"><a href="index.html">Accueil</a></li>
+            <li class="nav-items"><a href="chambre.html">Chambres</a></li>
+            <li class="nav-items"><a href="apropos.html">A propos</a></li>
+            <li class="nav-items"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="welcome">
+        <h1>Contact Zurich</h1>
+    </div>
+    <div id="blockkontact">
+        <div class="postkontact">
+            <h1>CONTACTEZ NOUS</h1>
+            <p>Besoin d’un renseignement au sujet de nos chambres, de nos<br>
+                 salles de conférence ou de l’organisation d’un événement au <br>
+                </p>
+
+                <p>sein de notre établissement ? Remplissez notre formulaire de <br>
+                    contact et nous vous répondrons sous 24 heures</p>
+        </div>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">nom</label>
+              <input type="text" id="fname" name="firstname" placeholder="Votre nom..">
+          
+              <label for="lname">Prenom</label>
+              <input type="text" id="lname" name="lastname" placeholder="votre prenom..">
+          
+              <label for="pays">pays</label>
+              <select id="country" name="country">
+                <option value="Haiti">Haiti</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="objet">objet</label>
+              <textarea id="subject" name="subject" placeholder="Ecrire quelque chose.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+        
+    </div>
+</body>
+</html>

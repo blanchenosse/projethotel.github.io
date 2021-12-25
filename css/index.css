@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/font.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.nav-list  {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-items {
+    margin-right: 2rem ;
+    text-transform: uppercase;
+    font-weight: 600px
+}
+
+.nav-items a {
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.nav-items:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+
+.text h1 {
+    color:#d08316;
+    text-align: center;
+    margin-top: 300px;
+}
+.text p {
+    color: rgb(170, 170, 173);
+    text-align: center;
+   
+}
+#box {
+    display: flex;
+    justify-content: center;
+}
+.boite {
+    width: 370px;
+    height: 600px;
+    border: 2px;
+    margin: 2rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 5px #acacac;
+}
+
+.boite h1 {
+    color: #ffffff;
+    margin-top: -100px;
+    text-align: center;
+}
+.boite p {
+    color: #000000;
+    margin-top: 80px;
+    text-align: center;
+}
+.boite img :hover {
+    box-shadow: 5px 5px 5px 5px rgb(212, 211, 211);
+    -webkit-transform:scale(1.25);
+}
+
+.text2 h1 {
+    color:#d08316;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.text2 p {
+    color: rgb(170, 170, 173);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.allicone {
+    width: 7%;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.allicone p {
+    color:rgb(170, 170, 173) ;
+}
+
+#firtsTabo p {
+    color: #911a1a;
+    margin-top: -50px;
+    margin-left: 2rem;
+}
+
+
+#apptoto {
+ display: flex;
+ justify-content: center;
+ 
+}
+
+#apptoto img {
+    margin:1rem;
+}
+
+#tmclientS {
+    background-color: #d08316;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+
+footer {
+    height: 500px;
+    width:100%;
+    background-image: url(../img/anbafinal.jpg);
+    background-repeat: no-repeat;
+}
+
+#tmclientS {
+    display: flex;
+    justify-content: center;
+}
+
+.tmbtn {
+    height: 35px;
+    width: 210px;
+    font-size:11px;
+    border: 2px solid #fff;
+    display: flex;
+    margin: 58px;
+    margin-left: 150px;
+    
+}
+.tmbtn h1 {
+    margin-top:6px;
+    color: #fff;
+    margin-left:10px;
+}
+.tmbtn a {
+    color: #fff;
+}
+
+.tmbtn h1 a:hover{
+  background-color: #fff;
+  color: #d08316;
+  width: 400px;
+
+}
+
+#piedpage {
+    display: flex;
+    margin-top:400px;
+    margin-right:-17%;
+
+}
+
+.piedpg1 {
+    color: #fff;
+    margin-right:12rem;
+    font-weight: lighter;
+    padding-top: 1rem;
+}
+
+.piedpg1 p a {
+    color: #fff;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
